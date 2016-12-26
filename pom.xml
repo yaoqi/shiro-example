@@ -41,6 +41,17 @@
         <module>shiro-example-chapter23-nginx</module>
         <module>shiro-example-chapter24</module>
     </modules>
-
+         <build>
+                  <plugins>
+                           <plugin>
+                                    <artifactId>maven-compiler-plugin</artifactId>
+                                    <version>3.1</version>
+                                    <configuration>
+                                             <source>1.7</source>
+                                             <target>1.7</target>
+                                    </configuration>
+                           </plugin>
+                  </plugins>
+         </build>
 
 </project>
